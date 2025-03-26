@@ -2,7 +2,7 @@
 
 Este repositório contém a configuração para rodar o **PostgreSQL** em um contêiner Docker utilizando o **Docker Compose**. O projeto foi configurado para usar uma **rede externa chamada `proxy`**, permitindo que o contêiner PostgreSQL se conecte com outros serviços em uma rede isolada.
 
-## 📦 Como Usar
+### 📦 Como Usar
 
 - **Crie a rede externa `proxy`**:
    Antes de rodar o projeto, é necessário criar a rede externa que será usada pelos contêineres
